@@ -1,0 +1,119 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/WhateverItTakes-Ya14.ttf);
+  }
+  
+
+  
+
+* {
+    font-family: 'myFirstFont', monospace;
+    margin:0;
+    padding:0;
+   
+}
+
+.container {
+    margin-top:10px;
+   width: 600px;
+    height: 680px;
+    margin: auto;
+    margin-bottom: 10px;
+    min-width: 350px;
+   
+}
+.painel {
+    margin-top:10px;
+    border-radius: 20px;
+    padding:10px;
+ height: 100%;
+ background-image: url(../images/blackboard4.jpg); 
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+
+  
+ 
+}
+
+.jogo {
+   padding-top:50px;
+   text-align: center;
+}
+
+.jogo h1 {
+    margin-top:5px;
+    font-family: 'myFirstFont';
+    margin-bottom:20px;
+    color:#fff;
+    letter-spacing: .8rem;
+    font-size:2.5rem;
+
+}
+
+.quadrado {
+    font-family: 'myFirstFont';
+    text-align: center;
+   width: 70px;
+  background-color: transparent;
+   display:inline-block;
+   padding:15px;
+   font-size: 60px;
+ margin:5px;
+   cursor:pointer;
+   color:transparent;
+}
+
+.painel-resultado {
+    font-size-adjust: 0.58;
+    margin-top:40px;
+    margin-left:0px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.painel-resultado span{
+    margin-left:15px;
+    color:orange;
+}
+
+#vencedor-selecionado {
+     color:#0f0;
+     font-weight: bold;
+}
+
+button {
+margin-top:20px;
+width: 100px;
+height: 30px;
+background-color:transparent;
+cursor: pointer;
+display:right;
+color:white;
+font-size: 20px;
+font-weight: bold;
+border:none;
+font-size: 30px;
+outline: none;
+}
+
+button:hover {
+    color:rgb(230, 126, 67);
+}
+
+.copyright {
+    margin-bottom:0px;
+    margin-right:50px;
+    color:#fff;
+float:right;
+font-size: 1.5rem;
+}
+
+.linkpages {
+   
+    color:white;
+   font-size:1.5rem;
+}
+.linkpages:hover {
+color:orange
+}
